@@ -2,7 +2,7 @@
     width: 100%;
     padding: 100px 0;
     background: url('../images/services-bg.png') no-repeat center center/cover;
-    background-color: #c00c0c;
+    background-color: #000000;
     position: relative;
     overflow: visible;
 }
@@ -110,7 +110,7 @@
     display: flex;
     gap: 42px;
     align-items: stretch;
-    background: #060000;
+    background: #07060633;
     padding: 42px 42px 72px 42px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -118,7 +118,8 @@
 }
 
 .art-service-content {
-    background: #00000040;
+    background: #f3b1b140;
+
 }
 
 .tab-switch {
