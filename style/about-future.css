@@ -1,0 +1,47 @@
+.featured-main-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ffffff;
+    max-width: 1100px;
+    margin: 0 auto 60px auto;
+}
+
+.about-future {
+    border: 2px solid transparent;
+    border-radius: 36px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-future:hover {
+    transform: translateY(-2px);
+}
+
+.card-border-1.about-future {
+    background: linear-gradient(#151922, #151922) padding-box,
+        linear-gradient(135deg, #f066c6 0%, #76269b 100%) border-box;
+    box-shadow: inset 0px 0px 30px 5px rgba(240, 102, 198, 0.15), 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-border-2.about-future {
+    background: linear-gradient(#151922, #151922) padding-box,
+        linear-gradient(135deg, #77c4ff 0%, #e066c6 100%) border-box;
+    box-shadow: inset 0px 0px 30px 5px rgba(119, 196, 255, 0.15), 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-border-3.about-future {
+    background: linear-gradient(#151922, #151922) padding-box,
+        linear-gradient(135deg, #fef457 0%, #b89c14 100%) border-box;
+    box-shadow: inset 0px 0px 30px 5px rgba(254, 244, 87, 0.15), 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 768px) {
+    .about-future {
+        border-radius: 24px;
+    }
+}

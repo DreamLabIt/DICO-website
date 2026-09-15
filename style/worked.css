@@ -1,0 +1,74 @@
+.games-worked-section {
+    background-color: #000000; 
+    padding: 180px 37px;      
+    text-align: center;
+}
+
+.games-worked-section .section-title {
+    font-family: 'KNIGHT WARRIOR', sans-serif; 
+    font-size: 54px;     
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 6%;
+    line-height: 100%;
+    margin-bottom: 120px;    
+}
+
+.logos-grid {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;           
+    gap: 86px;                  
+    flex-wrap: wrap;       
+}
+
+.logo-item {
+    flex: 1;                
+    min-width: auto;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item img {
+    width: 100%;                  
+    height: auto;  
+    max-width: 229px;        
+    object-fit: contain;
+    opacity: 0.6;                 
+    transition: var(--transition);  
+}
+
+.logo-item img:hover {
+    opacity: 1;
+    transform: scale(1.05);   
+}
+
+
+@media (max-width: 768px) {
+    .games-worked-section {
+        padding: 50px 0;       
+    }
+    
+    .games-worked-section .section-title {
+        font-size: 24px;        
+        margin-bottom: 40px;
+    }
+    
+    .logos-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 30px 20px;    
+    }
+    
+    .logo-item img {
+        max-height: 45px;      
+    }
+}
+
+@media (max-width: 480px) {
+    .logos-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}

@@ -1,0 +1,92 @@
+.about-hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 1281px;
+    background: url('../images/team-group-photo.png') no-repeat center center / cover;
+    background-color: #05070a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: #000000;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 38%, rgba(0, 0, 0, 0.55) 100%);
+    pointer-events: none;
+    /* background: #000000;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.51) 38%, rgba(0, 0, 0, 0.47) 100%); */
+
+}
+
+.about-hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.about-hero-content {
+    width: 100%;
+    max-width: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.about-hero-title {
+    font-family: 'KNIGHT WARRIOR', sans-serif;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 12px rgba(255, 99, 87, 0.45);
+}
+
+
+@media (max-width: 1024px) {
+    .about-hero-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero-section {
+        min-height: 85vh;
+    }
+
+    .about-hero-title {
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    .about-hero-overlay::after {
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-hero-content {
+        gap: 16px;
+    }
+
+    .about-hero-title {
+        font-size: 32px;
+        letter-spacing: 2px;
+        padding: 0 10px;
+    }
+}

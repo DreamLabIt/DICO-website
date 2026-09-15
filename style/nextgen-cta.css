@@ -1,0 +1,142 @@
+.nextgen-cta-section {
+    width: 100%;
+    padding: 100px 0 0 0;
+    background: url('../images/about-bg.png') no-repeat center center/cover;
+    background-color: #000000;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.nextgen-container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nextgen-flex-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 58px;
+    width: 100%;
+}
+
+
+/* .nextgen-left-images {
+    flex: 0 0 986.147px;
+    max-width: 986.147px;
+    position: relative;
+    display: flex;
+}
+
+.nextgen-main-pic {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: 882px;
+    display: block;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+.nextgen-main-pic img {
+    width: 100%;
+    height: auto;
+}
+
+
+.nextgen-neon-pic {
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.nextgen-neon-pic img {
+    width: 100%;
+    height: auto;
+} */
+
+
+
+
+
+
+.nextgen-left-images {
+    flex: 0 0 986.147px;
+    max-width: 986.147px;
+    position: relative;
+    display: flex;
+    height: 882px;
+    width: 100%;
+}
+
+.nextgen-main-pic {
+    width: 100%;
+    max-width: 882px;
+    display: block;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.nextgen-main-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.nextgen-neon-pic {
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.nextgen-neon-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+.nextgen-right-content {
+    flex: 0 0 742px;
+    max-width: 742px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.nextgen-main-title {
+    font-family: 'KNIGHT WARRIOR', sans-serif;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.nextgen-btn-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nextgen-btn-box .gradient-btn-small {
+    padding: 16px 36px;
+    font-size: 18px;
+    border-radius: 50px;
+}

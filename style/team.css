@@ -1,0 +1,164 @@
+.team-section {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+.team-container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.team-main-title {
+    font-family: 'KNIGHT WARRIOR', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 96px;
+}
+
+.team-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px 64px;
+    margin-bottom: 96px;
+}
+
+.team-card {
+    max-width: 517.33px;
+    min-height: 787px;
+    border-radius: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    border: 2px solid transparent;
+}
+
+.card-style-pair {
+    background: linear-gradient(#151922, #151922) padding-box,
+        linear-gradient(69.26deg, rgba(119, 196, 255, 0.3) -4.29%, rgba(255, 149, 108, 0.3) 94.84%) border-box;
+}
+
+.team-img-box {
+    width: 100%;
+    max-width: 453.33px;
+    height: 430px;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    background-color: #0b0e14;
+}
+
+.team-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.team-designation {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2CFE90;
+    margin-bottom: 4px;
+}
+
+.team-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.team-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.team-slider-dots {
+    display: none;
+}
+
+.team-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 1400px) {
+    .team-grid-wrapper {
+        gap: 30px 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1100px) {
+    .team-grid-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 30px;
+        justify-items: center;
+    }
+
+    .team-card {
+        max-width: 517.33px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-section {
+        padding: 60px 0;
+    }
+
+    .team-main-title {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .team-grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        justify-items: center;
+        overflow-x: visible;
+        width: 100%;
+    }
+
+    .team-card {
+        max-width: 517.33px;
+        min-height: 787px;
+        width: 100%;
+        padding: 32px;
+    }
+
+    .team-img-box {
+        max-width: 453.33px;
+        height: 430px;
+        margin-bottom: 24px;
+    }
+
+    .team-name {
+        font-size: 32px;
+    }
+
+    .team-designation,
+    .team-desc {
+        font-size: 18px;
+    }
+}

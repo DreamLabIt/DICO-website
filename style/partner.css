@@ -1,0 +1,150 @@
+.why-partner-section {
+    width: 100%;
+    padding: 50px 0;
+    background: url('../images/partner-bg.png') no-repeat center center/cover;
+    background-color: #000000;
+    text-align: center;
+}
+
+
+.partner-container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.partner-title {
+    font-family: 'KNIGHT WARRIOR', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 107px;
+
+}
+
+.partner-main-box {
+    max-width: 1562px;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+    padding: 0;
+    border: 12px solid transparent;
+    background: linear-gradient(#151922, #151922) padding-box,
+        linear-gradient(95.05deg, rgba(87, 255, 99, 0.3) 7.14%, rgba(255, 243, 145, 0.3) 93.94%) border-box;
+}
+
+.partner-inner-box {
+    width: 100%;
+    min-height: calc(352px - 24px);
+    padding: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 38px;
+    box-sizing: border-box;
+    border: 12px solid transparent;
+    background: linear-gradient(#151922, #151922) padding-box,
+        linear-gradient(95.05deg, #77C4FF 7.14%, rgba(119, 196, 255, 0.32) 93.94%) border-box;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.partner-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.partner-row.justify-center {
+    justify-content: center;
+    gap: 40px;
+}
+
+.partner-card {
+    min-height: 106px;
+    padding: 32px;
+    background: rgba(119, 196, 255, 0.04);
+    border: 1px solid rgba(131, 146, 166, 0.3);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.check-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .card-text {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .partner-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .partner-main-box {
+        border-radius: 25px;
+        border-width: 6px;
+    }
+
+    .partner-inner-box {
+        border-radius: 19px;
+        border-width: 6px;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .partner-row,
+    .partner-row.justify-center {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .partner-card {
+        width: 100%;
+        flex: none;
+        padding: 20px;
+        min-height: auto;
+        gap: 15px;
+    }
+
+    .check-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-text {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+}
