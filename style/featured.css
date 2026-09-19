@@ -41,23 +41,37 @@
 .card-border-1,
 .card-border-4 {
     background:
-        linear-gradient(#000 0 0) padding-box,
+        linear-gradient(#140E0C, #140E0C) padding-box,
         linear-gradient(95.05deg, #FEF457 7.14%, rgba(254, 244, 87, 0.32) 93.94%) border-box;
 }
 
 .card-border-2,
 .card-border-5 {
     background:
-        linear-gradient(#000 0 0) padding-box,
+        linear-gradient(#0D121A, #0D121A) padding-box,
         linear-gradient(95.05deg, #77C4FF 7.14%, rgba(119, 196, 255, 0.32) 93.94%) border-box;
+}
+
+.card-border-2::after,
+.card-border-5::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    box-shadow:
+        inset 0px 1px 2px rgba(119, 196, 255, 0.8),
+        inset 0px 0px 20px rgba(119, 196, 255, 0.3);
 }
 
 .card-border-3,
 .card-border-6 {
     background:
-        linear-gradient(#000 0 0) padding-box,
+        linear-gradient(#140E0C, #140E0C) padding-box,
         linear-gradient(95.05deg, #FF976A 7.14%, rgba(255, 151, 106, 0.32) 93.94%) border-box;
 }
+
+
 
 .portfolio-img {
     width: 100%;
