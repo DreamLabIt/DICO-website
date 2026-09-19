@@ -3,6 +3,7 @@
     padding: 100px 0;
     background-color: #000000;
     text-align: center;
+    position: relative;
 }
 
 .pipeline-container {
