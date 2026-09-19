@@ -93,3 +93,19 @@ main {
     pointer-events: none;
     z-index: 10;
 }
+
+
+.ambient-glow-overlay {
+    position: absolute;
+    width: 746px;
+    height: 369px;
+    top: -150px;
+    left: -220px;
+    opacity: 0.6;
+    background: radial-gradient(circle, rgba(102, 198, 224, 0.35) 0%, rgba(102, 198, 224, 0) 70%);
+    filter: blur(120px);
+    -webkit-filter: blur(120px);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+}
